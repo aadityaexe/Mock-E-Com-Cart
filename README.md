@@ -140,7 +140,7 @@ frontend/
 ## Video Demo (Add demo link here)
 
 ```md
-🎥 https://your-video-demo-link.com
+🎥 [https://your-video-demo-link.com](https://youtu.be/KcUHhwOSe34?si=YSFXPA9HxOnKBZnM)
 ```
 
 ---
