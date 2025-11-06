@@ -127,10 +127,10 @@ frontend/
 ## Screenshots (Add screenshots here)
 
 ```md
-![One](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/one.png)
-![Two](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/two.png)
-![Three](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/three.png)
-![Four](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/four.png)
+![Home](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/one.png)
+![Checkout](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/two.png)
+![Order Receipt](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/three.png)
+![Invoice](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/four.png)
 
 
 ```
