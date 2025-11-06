@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+/* Theme tokens (mapped to Tailwind via arbitrary colors) */
+:root {
+  --color-primary-900: 16 24 40; /* slate-900ish */
+  --color-primary-800: 29 41 81;
+  --color-primary-700: 30 58 138;
+  --color-primary-600: 37 99 235; /* primary brand */
+  --color-primary-500: 59 130 246;
+  --color-muted-900: 24 24 27;
+  --color-muted-700: 113 113 122; /* zinc-500 */
+  --color-muted-300: 228 228 231;
+  --color-muted-200: 244 244 245;
+  --color-muted-100: 250 250 250;
+  --color-surface: 255 255 255;
+  --color-border: 228 228 231;
+}
+
+/* Utilities bridging to CSS variables */
+.text-primary-900 { color: rgb(var(--color-primary-900)); }
+.bg-primary-600 { background-color: rgb(var(--color-primary-600)); }
+.bg-primary-700 { background-color: rgb(var(--color-primary-700)); }
+.bg-primary-800 { background-color: rgb(var(--color-primary-800)); }
+.focus\:ring-primary-500:focus { box-shadow: 0 0 0 2px rgb(var(--color-primary-500)); }
+.text-muted-700 { color: rgb(var(--color-muted-700)); }
+.bg-muted-100 { background-color: rgb(var(--color-muted-100)); }
+.hover\:bg-muted-200:hover { background-color: rgb(var(--color-muted-200)); }
+.active\:bg-muted-300:active { background-color: rgb(var(--color-muted-300)); }
+.bg-surface { background-color: rgb(var(--color-surface)); }
+.ring-border\/60 { box-shadow: inset 0 0 0 1px rgba(var(--color-border), 0.6); }
+.ring-border\/70 { box-shadow: inset 0 0 0 1px rgba(var(--color-border), 0.7); }
+.border-border { border-color: rgb(var(--color-border)); }
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn95 {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    transform: translate(-50%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-in {
+  animation-duration: 0.2s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+.fade-in {
+  animation-name: fadeIn;
+}
+
+.zoom-in-95 {
+  animation-name: zoomIn95;
+}
+
+.slide-in-from-bottom-2 {
+  animation-name: slideInFromBottom;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible styles */
+*:focus-visible {
+  outline: 2px solid rgb(var(--color-primary-500));
+  outline-offset: 2px;
+}
