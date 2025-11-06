@@ -127,10 +127,12 @@ frontend/
 ## Screenshots (Add screenshots here)
 
 ```md
-![Home Page](IMAGE_URL)
-![Cart Page](IMAGE_URL)
-![Checkout Page](IMAGE_URL)
-![Invoice PDF Demo](IMAGE_URL)
+![Home Page](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a00f937a-231e-4e01-a5d0-8b2b50f077db" />
+)
+![Checkout Page](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5195d13e-feaf-4417-a9d8-f3ba46e39cd2" />
+)
+![Invoice PDF Demo](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5b2e8a99-1718-4079-aaee-29ea3d65b3e1" />
+)
 ```
 
 ---
