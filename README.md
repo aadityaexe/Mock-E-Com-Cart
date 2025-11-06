@@ -75,7 +75,7 @@ The goal was to demonstrate end-to-end capability across **UI**, **API**, **data
 
 ### Backend `.env`
 ```env
-MONGODB_URI=mongodb+srv://kmr db_user:6W6hh@cluster0.izlksab.mongodb.net
+MONGODB_URI=MONGODB_API
 PORT=5000
 ```
 
