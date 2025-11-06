@@ -127,12 +127,12 @@ frontend/
 ## Screenshots (Add screenshots here)
 
 ```md
-![Home Page](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a00f937a-231e-4e01-a5d0-8b2b50f077db" />
-)
-![Checkout Page](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5195d13e-feaf-4417-a9d8-f3ba46e39cd2" />
-)
-![Invoice PDF Demo](<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5b2e8a99-1718-4079-aaee-29ea3d65b3e1" />
-)
+![One](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/one.png)
+![Two](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/two.png)
+![Three](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/three.png)
+![Four](https://raw.githubusercontent.com/aadityaexe/Mock-E-Com-Cart/main/frontend/src/assets/four.png)
+
+
 ```
 
 ---
